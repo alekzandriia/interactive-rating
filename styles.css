@@ -106,7 +106,7 @@ p {
     display:none;
 }
 .rating {
-    display:
+    display: visible;
 }
 .selection {
     background: var(--btn);
