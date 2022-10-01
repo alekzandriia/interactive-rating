@@ -67,7 +67,7 @@ li {
     background:var(--accent);
     border:none;
     border-radius:1rem;
-    padding:0.5rem 5rem;
+    padding:0.5rem 8rem;
     color:white;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
@@ -78,7 +78,7 @@ li {
 }
 
 .container {
-    max-width:20rem;
+    max-width:23rem;
     background: var(--bg-main);
     padding:2rem;
     border-radius:2rem;
