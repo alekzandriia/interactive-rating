@@ -1,0 +1,130 @@
+/*
+- White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%)
+- Font size (paragraph): 15px
+- Orange: hsl(25, 97%, 53%) */
+
+/* Reset Browser Default Styling*/
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+    --accent-light: white;
+    --text: hsl(217, 12%, 63%);
+    --btn: hsl(220, 19%, 19%);
+    --bg-main: hsl(222, 21%, 16%);
+    --bg-primary: hsl(216, 12%, 8%);
+    --accent: hsl(25, 97%, 53%);
+}
+
+body {
+    background:var(--bg-primary);
+    font-family: 'Overpass', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+}
+ul {
+    list-style: none;
+    display:flex;
+}
+li {
+    margin:0.25rem;
+}
+.btn {
+    background: var(--btn);
+    border:none;
+    border-radius: 50%;
+    height:1rem;
+    width:1rem;
+    padding:1.3rem;
+    margin-bottom:1rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text);
+}
+
+.btn:hover {
+    background: var(--accent);
+    color:var(--accent-light);
+}
+
+
+.btn-submit {
+    background:var(--accent);
+    border:none;
+    border-radius:1rem;
+    padding:0.5rem 5rem;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+.btn-submit:hover {
+    background: var(--accent-light);
+    color: var(--accent);
+}
+
+.container {
+    max-width:20rem;
+    background: var(--bg-main);
+    padding:2rem;
+    border-radius:2rem;
+}
+
+.icon-star {
+    border-radius:50%;
+    background: var(--btn);
+    padding:0.75rem;
+}
+
+h1, h2 {
+    color:var(--accent-light);
+    margin-top: 1rem;
+}
+
+p {
+    color: var(--text);
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+}
+
+.thank-you {
+    display:none;
+}
+.rating {
+    display:
+}
+.selection {
+    background: var(--btn);
+    color:var(--accent);
+    border:none;
+    border-radius: 2rem;
+    padding:0.5rem;
+}
+
+
+
+
+
+/* Frontend Mentor Attribution */
+.attribution {
+     font-size: 11px; text-align: center; 
+     color:white;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
